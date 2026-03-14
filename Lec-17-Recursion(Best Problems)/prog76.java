@@ -1,3 +1,5 @@
+// print the 1st and last occurance of an element in string 
+
 public class prog76 {
 
     public static int first = -1;
