@@ -9,7 +9,7 @@
 
 
 interface Animal {
-    void sound();   // automatically abstract
+    public void sound();   // automatically abstract
 }
 
 class Dog implements Animal {
@@ -29,16 +29,19 @@ public class prog106 {
 
 
 // ⚖️ Abstract Class vs Interface
-// Feature	Abstract Class	Interface
-// Methods	Abstract + normal	Only abstract (mostly)
-// Keyword	extends	implements
-// Multiple inheritance	❌	✅
-// Constructor	✔️	❌
+
+// Feature	                Abstract Class	               Interface
+// Methods	                Abstract + normal	           Only abstract (mostly)
+// Keyword	                extends	                       implements
+// Multiple inheritance	       ❌	                         ✅
+// Constructor	               ✔️	                          ❌
+
 // 🎯 Why Abstraction?
 // Hide complexity
 // Improve security
 // Reduce code dependency
 // Easy maintenance
+
 // 💣 Encapsulation vs Abstraction (don’t mix)
 
 // Concept	        vs      Meaning
